@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>
+Hello World!
+</h1>
+<script typescript="">
+function clickFunction() {
+	document.getElementById("demo").value = "Hello JavaScript!";
+	var myList = document.getElementsByTagName('h1'); 
+	myList[0].style.color = "red"; // make the first one red
+	myList[0].innerHTML = "Hello JavaScript!";
+};
+</script>
+</head>
+<body>
+<p>
+Hello to the new world!
+</p>
+<input id="demo" type="button" value="Click Me!" onclick="clickFunction()" /> 
+</p>
+</body>
+</html>
